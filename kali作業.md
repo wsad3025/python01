@@ -132,10 +132,9 @@ python3 test1.py
 ```
 ### 完成python課本第10章
 
-```
+
 # Python 作業 1
 ## 10-1
-```
 ```
 root@kali:/python# python test1.py 
 hello!
@@ -143,31 +142,35 @@ hello!
 abcdef
 ant
 ```
-
+```
 a= 1
 b= 2
 c = a/b
 print(a, "/", b, "=", c) 
 add = str(a)+"/"+str(b)+"="+str(c)
 print(add) 
-
+```
+```
 input("Where do you live? ")
 print("I live in Boston. ")
 user_place = input("Where do you live? ")
 text = user_place.capitalize()+ "!"
 print(text) 
 print("I hear it's nice there!") 
-
+```
+```
 user_place = input("Where do you live? ")
 text = user_place.capitalize()+ "!"
 print(text) 
 print("I hear it's nice there!") 
-
+```
+```
 num = int(input ("Enter a number to find the square of: "))
 user_input = input("Enter a integer to find the square of: ")
 num = int(user_input) 
 print(num*num)
-
+```
+```
 num1 = float(input("Enter a number: "))
 num2 = float(input("Enter another number: "))
 print(num1, "*", num2, "=", num1*num2)
